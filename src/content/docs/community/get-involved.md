@@ -29,4 +29,10 @@ FPV is more fun with other people. Here's how to connect with the community.
 
 ## Contributing to This Guide
 
-This is an open-source project. Found an error? Want to expand a stub? [Open a PR on GitHub](https://github.com/lacymorrow/fpv-bible).
+This is an open-source project. Every page has an **"Edit page"** link at the bottom — click it, make your changes, and submit a pull request.
+
+- **Expand a stub** — Pages marked with a yellow "Stub" banner need more content. Pick one and write what you know.
+- **Fix something** — See outdated or incorrect info? Fix it directly or [open an issue](https://github.com/lacymorrow/fpv-bible-site/issues/new/choose).
+- **Request a topic** — Want a page that doesn't exist yet? [Request it](https://github.com/lacymorrow/fpv-bible-site/issues/new?template=content-request.yml).
+
+For full contribution guidelines, see [CONTRIBUTING.md on GitHub](https://github.com/lacymorrow/fpv-bible-site/blob/main/CONTRIBUTING.md).

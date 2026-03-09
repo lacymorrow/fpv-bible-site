@@ -7,7 +7,10 @@ export default defineConfig({
 		starlight({
 			title: 'FPV Bible',
 			description: 'A comprehensive, open-source guide to building and flying FPV drones.',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/lacymorrow/fpv-bible' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/lacymorrow/fpv-bible-site' }],
+			editLink: {
+				baseUrl: 'https://github.com/lacymorrow/fpv-bible-site/edit/main/',
+			},
 			sidebar: [
 				{
 					label: 'Getting Started',
