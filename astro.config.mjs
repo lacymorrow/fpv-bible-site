@@ -18,6 +18,18 @@ export default defineConfig({
 					items: [
 						{ slug: 'getting-started/introduction' },
 						{ slug: 'getting-started/anatomy' },
+						{ slug: 'getting-started/first-drone' },
+						{ slug: 'getting-started/costs' },
+						{ slug: 'getting-started/glossary' },
+					],
+				},
+				{
+					label: 'Drone Types',
+					items: [
+						{ slug: 'drone-types/overview' },
+						{ slug: 'drone-types/tiny-whoop' },
+						{ slug: 'drone-types/cinewhoop' },
+						{ slug: 'drone-types/long-range' },
 					],
 				},
 				{
@@ -45,6 +57,7 @@ export default defineConfig({
 					items: [
 						{ slug: 'control/overview' },
 						{ slug: 'control/radio-transmitter' },
+						{ slug: 'control/elrs' },
 						{ slug: 'control/protocols' },
 						{ slug: 'control/telemetry' },
 						{ slug: 'control/receiver' },
@@ -64,16 +77,27 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'FPV',
+					label: 'FPV System',
 					items: [
 						{ slug: 'fpv/overview' },
-						{ slug: 'fpv/etiquette' },
+						{ slug: 'fpv/digital-systems' },
 						{ slug: 'fpv/camera' },
 						{ slug: 'fpv/vtx' },
 						{ slug: 'fpv/vrx' },
 						{ slug: 'fpv/goggles' },
 						{ slug: 'fpv/osd' },
 						{ slug: 'fpv/antenna' },
+						{ slug: 'fpv/etiquette' },
+					],
+				},
+				{
+					label: 'Software',
+					items: [
+						{ slug: 'software/overview' },
+						{ slug: 'software/betaflight-setup' },
+						{ slug: 'software/pid-tuning' },
+						{ slug: 'software/rates' },
+						{ slug: 'software/blackbox' },
 					],
 				},
 				{
@@ -92,6 +116,14 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Skills',
+					items: [
+						{ slug: 'skills/soldering' },
+						{ slug: 'skills/3d-printing' },
+						{ slug: 'skills/maintenance' },
+					],
+				},
+				{
 					label: 'Flight School',
 					items: [
 						{ slug: 'flight-school/overview' },
@@ -101,11 +133,42 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Freestyle',
+					items: [
+						{ slug: 'freestyle/overview' },
+					],
+				},
+				{
+					label: 'Racing',
+					items: [
+						{ slug: 'racing/overview' },
+					],
+				},
+				{
+					label: 'Cinematic',
+					items: [
+						{ slug: 'cinematic/overview' },
+					],
+				},
+				{
 					label: 'Recording',
 					items: [
 						{ slug: 'recording/overview' },
 						{ slug: 'recording/dvr' },
 						{ slug: 'recording/hd-recording' },
+					],
+				},
+				{
+					label: 'Safety',
+					items: [
+						{ slug: 'safety/lipo-safety' },
+						{ slug: 'safety/flight-safety' },
+					],
+				},
+				{
+					label: 'Regulations',
+					items: [
+						{ slug: 'regulations/overview' },
 					],
 				},
 				{
@@ -127,6 +190,7 @@ export default defineConfig({
 					items: [
 						{ slug: 'community/get-involved' },
 						{ slug: 'community/contribute', badge: { text: 'Help!', variant: 'caution' } },
+						{ slug: 'community/online-resources' },
 					],
 				},
 			],
