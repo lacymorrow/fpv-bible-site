@@ -126,6 +126,7 @@ export default defineConfig({
 					label: 'Community',
 					items: [
 						{ slug: 'community/get-involved' },
+						{ slug: 'community/contribute', badge: { text: 'Help!', variant: 'caution' } },
 					],
 				},
 			],
