@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import aiExpand from './src/integrations/ai-expand.ts';
 
 export default defineConfig({
 	integrations: [
@@ -129,5 +130,6 @@ export default defineConfig({
 				},
 			],
 		}),
+		aiExpand(),
 	],
 });
